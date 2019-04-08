@@ -3,13 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplication1;
 
 /**
  *
  * @author carlo.columna
  */
-public class JavaApplication1 {
+public class HelloWorld {
 
     /**
      * @param args the command line arguments
