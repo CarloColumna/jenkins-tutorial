@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.AppTest" time="0.031" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.AppTest" time="0.03" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -7,7 +7,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/carlo.columna/Documents/Projects/Jenkins/maven-jenkins-tutorial/my-app/target/test-classes:/Users/carlo.columna/Documents/Projects/Jenkins/maven-jenkins-tutorial/my-app/target/classes:/Users/carlo.columna/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/carlo.columna/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.class.path" value="/Users/carlo.columna/Documents/Projects/Jenkins/jenkins-tutorial/target/test-classes:/Users/carlo.columna/Documents/Projects/Jenkins/jenkins-tutorial/target/classes:/Users/carlo.columna/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/carlo.columna/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
@@ -18,21 +18,21 @@
     <property name="user.country" value="AU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Users/carlo.columna/Documents/Projects/Jenkins/maven-jenkins-tutorial/my-app/target/surefire/surefirebooter1282074343240617051.jar /Users/carlo.columna/Documents/Projects/Jenkins/maven-jenkins-tutorial/my-app/target/surefire 2019-04-08T17-26-32_414-jvmRun1 surefire2866886499946213802tmp surefire_01529700426344932430tmp"/>
+    <property name="sun.java.command" value="/Users/carlo.columna/Documents/Projects/Jenkins/jenkins-tutorial/target/surefire/surefirebooter450994628596216489.jar /Users/carlo.columna/Documents/Projects/Jenkins/jenkins-tutorial/target/surefire 2019-04-08T17-37-56_598-jvmRun1 surefire198111479613615125tmp surefire_03442783454784444768tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="surefire.test.class.path" value="/Users/carlo.columna/Documents/Projects/Jenkins/maven-jenkins-tutorial/my-app/target/test-classes:/Users/carlo.columna/Documents/Projects/Jenkins/maven-jenkins-tutorial/my-app/target/classes:/Users/carlo.columna/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/carlo.columna/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/carlo.columna/Documents/Projects/Jenkins/jenkins-tutorial/target/test-classes:/Users/carlo.columna/Documents/Projects/Jenkins/jenkins-tutorial/target/classes:/Users/carlo.columna/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/carlo.columna/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/carlo.columna"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre"/>
-    <property name="basedir" value="/Users/carlo.columna/Documents/Projects/Jenkins/maven-jenkins-tutorial/my-app"/>
+    <property name="basedir" value="/Users/carlo.columna/Documents/Projects/Jenkins/jenkins-tutorial"/>
     <property name="file.separator" value="/"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/carlo.columna/Documents/Projects/Jenkins/maven-jenkins-tutorial/my-app/target/surefire/surefirebooter1282074343240617051.jar"/>
+    <property name="surefire.real.class.path" value="/Users/carlo.columna/Documents/Projects/Jenkins/jenkins-tutorial/target/surefire/surefirebooter450994628596216489.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
@@ -48,7 +48,7 @@
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="/var/folders/js/_yx_m_g1579c1f2kdpdhpltr0000gn/T/"/>
     <property name="java.version" value="1.8.0_111"/>
-    <property name="user.dir" value="/Users/carlo.columna/Documents/Projects/Jenkins/maven-jenkins-tutorial/my-app"/>
+    <property name="user.dir" value="/Users/carlo.columna/Documents/Projects/Jenkins/jenkins-tutorial"/>
     <property name="os.arch" value="x86_64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
@@ -62,5 +62,5 @@
     <property name="java.class.version" value="52.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.mycompany.app.AppTest" time="0.002"/>
+  <testcase name="shouldAnswerWithTrue" classname="com.mycompany.app.AppTest" time="0.001"/>
 </testsuite>
